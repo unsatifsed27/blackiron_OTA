@@ -9,7 +9,6 @@ fi
 
 STATUS="$(jq -r '.status' "${CHANGED_FILE}")"
 DEVICE="$(jq -r '.device' "${CHANGED_FILE}")"
-STICKER="sticker.tgs"
 PHOTO="banner.jpeg"
 BUILD_DATE="$(date +'%d-%b-%Y' -d @$(jq '.datetime' ${CHANGED_FILE}))"
 CHANGELOG="${DEVICE_CHANGELOG_URL}${DEVICE}/$(jq -r '.filename' "${CHANGED_FILE}")"
@@ -22,22 +21,20 @@ ROM="https://github.com/Black-Iron-Project/OTA/blob/thirteen/changelog.md"
 if [[ $STATUS = "Active" ]]
 then
 
-         curl -X POST -F sticker=@"${STICKER}" https://api.telegram.org/bot"${TOKEN}"/sendSticker -F chat_id="${CHAT_ID}"
-
-         curl -X POST -F photo=@"${PHOTO}" https://api.telegram.org/bot"${TOKEN}"/sendPhoto -F chat_id="${CHAT_ID}" -F parse_mode=HTML -F "caption=BlackIron ${BLKIV} OFFICIAL Update for ${DEVICE_NAME} is available
-By : @${USERNAME}
+         curl -X POST -F photo=@"${PHOTO}" https://api.telegram.org/bot"${TOKEN}"/sendPhoto -F chat_id="${CHAT_ID}" -F parse_mode=HTML -F "caption=BlackIron ${BLKIV}
+New OFFICIAL Update for ${DEVICE_NAME} is Out
 
 Build Version : ${BLKIV}
 Build Date : ${BUILD_DATE}
 Codename : ${DEVICE}
+By : @${USERNAME}
 
-📥 Download : <a href='${SFLINK}'>SourceForge</a>
-💬 XDA thread : <a href='${XDA}'>XDA</a>
-📄 Changelog : <a href='${CHANGELOG}.txt'>Device</a> | <a href='${ROM}'>ROM</a>
+Download : <a href='${SFLINK}'>SourceForge</a>
+XDA thread : <a href='${XDA}'>XDA</a>
+Changelog : <a href='${CHANGELOG}.txt'>Device</a> | <a href='${ROM}'>ROM</a>
 
  Support : @BlackIronProject
  Channel : @BlkiUpdate
- Site : lol.lol
 
 #BLKI #${DEVICE}"
 else
