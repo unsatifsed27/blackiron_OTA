@@ -13,6 +13,7 @@
 - QS Header Image
 - Deep sleep preference controller
 - Edge light customizations
+- toggle to force LTE_CA
 
 # V3.0
 
