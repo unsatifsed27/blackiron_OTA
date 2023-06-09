@@ -1,4 +1,20 @@
-# Blk-Iron_Features V3.0
+# Blk-Iron_Features
+
+# V3.1
+
+- Support for OTA
+- Support for local update
+- Lock screen clock top margin settings 
+- Lockscreen text size settings
+- Switch to unlink ringtone and notifications volume
+- Brightness slider styles
+- Hide IME space feature
+- Option to enable AOD on charging only
+- QS Header Image
+- Deep sleep preference controller
+- Edge light customizations
+
+# V3.0
 
 - Black Iron Settings
 - Advanced restart (with System UI restart)
