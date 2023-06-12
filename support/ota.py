@@ -12,8 +12,19 @@ print ("")
 print ("")
 print ("")
 print("""
-█▀█ █ ▀▄▀ █▀▀ █░░ ▄▄ █▀▀ ▀▄▀ ▀█▀ █▀▀ █▄░█ █▀▄ █▀▀ █▀▄
-█▀▀ █ █░█ ██▄ █▄▄ ░░ ██▄ █░█ ░█░ ██▄ █░▀█ █▄▀ ██▄ █▄▀""")
+    ,---,.   ,--,                              ,-.            ,---,                                
+  ,'  .'  \,--.'|                          ,--/ /|         ,`--.' |                                
+,---.' .' ||  | :                        ,--. :/ |         |   :  :  __  ,-.   ,---.        ,---,  
+|   |  |: |:  : '                        :  : ' /          :   |  ',' ,'/ /|  '   ,'\   ,-+-. /  | 
+:   :  :  /|  ' |     ,--.--.     ,---.  |  '  /           |   :  |'  | |' | /   /   | ,--.'|'   | 
+:   |    ; '  | |    /       \   /     \ '  |  :           '   '  ;|  |   ,'.   ; ,. :|   |  ,"' | 
+|   :     \|  | :   .--.  .-. | /    / ' |  |   \          |   |  |'  :  /  '   | |: :|   | /  | | 
+|   |   . |'  : |__  \__\/: . ..    ' /  '  : |. \         '   :  ;|  | '   '   | .; :|   | |  | | 
+'   :  '; ||  | '.'| ," .--.; |'   ; :__ |  | ' \ \        |   |  ';  : |   |   :    ||   | |  |/  
+|   |  | ; ;  :    ;/  /  ,.  |'   | '.'|'  : |--'         '   :  ||  , ;    \   \  / |   | |--'   
+|   :   /  |  ,   /;  :   .'   \   :    :;  |,'            ;   |.'  ---'      `----'  |   |/       
+|   | ,'    ---`-' |  ,     .-./\   \  / '--'              '---'                      '---'        
+`----'              `--`---'     `----'                                                            """)
 print ("")
 print ("")
 print ("")
@@ -35,7 +46,7 @@ print ("These Inputs are For SourceForge Uploading, you will be asked password j
 sf=input("Enter Your SourceForge Username ")
 
 # Sf Uploading 
-os.system("scp out/target/product/%s/PixelExtended*.zip %s@frs.sourceforge.net://home/frs/project/pixelextended/%s/"%(codename,sf,codename))
+os.system("scp out/target/product/%s/BlakIron*.zip %s@frs.sourceforge.net://home/frs/project/black-iron-project/%s/"%(codename,sf,codename))
 
 # OTA/TG
 os.system("bash OTA/support/ota.sh '%s' '%s' '%s' '%s' '%s' '%s'"%(codename,tgname,device,xda,ghun,name))

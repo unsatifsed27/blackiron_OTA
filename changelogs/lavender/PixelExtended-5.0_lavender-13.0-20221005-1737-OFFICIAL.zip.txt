@@ -1,9 +1,0 @@
-Changelog - 2022/10/06
-
-- Initial A13 release.
-- Shipped kernel with Nexus 10.1 QTI
-- Bootloop issue fixed.
-- Deep Sleep working as always.
-- Improved some issues.
-
-by @Shizukachanwa

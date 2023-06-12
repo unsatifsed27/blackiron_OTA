@@ -1,3 +1,0 @@
-Updated kernel to Scarlet v8
-Feb Update
-Installation Instructions https://wiki.pixelexperience.org/devices/jasmine_sprout/install/
