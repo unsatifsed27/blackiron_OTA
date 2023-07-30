@@ -1,5 +1,12 @@
 # Blk-Iron_Features
 
+# V3,2 (29/07/2023)
+
+  - Merged July Security Patches 
+  - Surce rebased again :(
+  - Restored Qs Allways Black
+  - ... and other small improvements
+
 # V3.1
 
 - Support for OTA
