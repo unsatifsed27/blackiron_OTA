@@ -1,0 +1,39 @@
+Changelog - 13.0// V3.2 29/07/2023
+
+ - July Patch Update
+ - small improvement device side
+
+
+FLASH INSTRUCTIONS:
+
+🚦 Before flashing any rom, make a backup of your data! 🚥
+
+Pre-requisites :
+ - Brain and ability to READ !
+ - Update your device to OOS 13
+ - OOS 13.1 - 13.1.0.500(EX01) firmware is required (link in telegram group or in XDA Post) 
+ - Gapps included so no need to flash/sideload GApps
+
+NOTE:
+It is recommended to flash the firmware before following the rom installation guide
+in order to flash the firmware, you need to install a recovery, which can be the blki one or the TWRP / Ofox (I recommend one of these on XDA)
+
+Clean Flash (If comming from OxygenOS or from anyother ROM):
+1. Download and Extract flash_utility package zip from "A13.0 Flash-utility" folder in SourceForge.
+2. Reboot to bootloader & connect your phone to PC
+3. Double click on flash.bat
+4. Reboot to recovery & Factory reset > Format data/factory reset
+5. Back to recovery home page & tap > Apply update > Apply from ADB
+6. Now sideload rom using command adb sideload BlackIron-3.x_lemonade/p-xxxxxxxxxxx.zip (lemonade for op9 or lemonadep for op9p)
+7. Reboot system. Profit.
+
+Dirty Flash :
+1. Reboot phone to recovery.
+2. ADB sideload BlackIron-3.x_lemonade/p-xxxxxxxxxxx.zip (lemonade for op9 or lemonadep for op9p)
+3. Reboot system. Profit.
+
+Rooting:
+1. Download Magisk.zip
+2. Reboot phone to recovery.
+3. adb sideload Magisk_xxx.zip
+4. Reboot system. Profit!
