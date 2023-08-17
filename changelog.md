@@ -1,6 +1,13 @@
 # Blk-Iron_Features
 
-# V3,2 (29/07/2023)
+# V3.3 (17/08/2023)
+
+  - Merged August Security Patches 
+  - Pixel Launcher/ASI drain fixes
+  - Last A13 update ?!?
+  - ... and other small improvements
+
+# V3.2 (29/07/2023)
 
   - Merged July Security Patches 
   - Surce rebased again :(
