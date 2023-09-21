@@ -1,18 +1,18 @@
 {
 	"error":false,
-	"filename":"BlackIron-3.3_lemonade-13.0-20230820-0616-OFFICIAL.zip",
-	"datetime":1692512160,
-	"size":2294898698,
-	"url":"https:\/\/sourceforge.net\/projects\/black-iron-project\/files\/lemonade\/BlackIron-3.3_lemonade-13.0-20230820-0616-OFFICIAL.zip\/download",
-	"filehash":"1a109d7f561bd3dee80beb122239c4ae",
+	"filename":"BlackIron-3.4_lemonade-13.0-20230921-1026-OFFICIAL.zip",
+	"datetime":1695291960,
+	"size":2288126195,
+	"url":"https:\/\/sourceforge.net\/projects\/black-iron-project\/files\/lemonade\/BlackIron-3.4_lemonade-13.0-20230921-1026-OFFICIAL.zip\/download",
+	"filehash":"6e5477b7d1969a7d7239cadd74076ac2",
 	"version":"thirteen",
 	"status":"Active",
-	"blkiv":"3.3",
-	"id":"e32d6c4ddb0add29dffe2d057b91698094281f11bd20d0183202e6f78653b9bc",
+	"blkiv":"3.4",
+	"id":"c5105e8371bc402397a6508b10c88409e35ffd62340e11247a613c18579951df",
 	"tg_username":"ralf979",
 	"device_name":"OnePlus 9",
 	"device":"lemonade",
-	"xda_thread":"https:\/\/forum.xda-developers.com\/t\/rom-official-oos-cam-black-iron-rom-v3-2-android-13-0-lemonade.4594469\/#post-88829359",
+	"xda_thread":"https:\/\/forum.xda-developers.com\/t\/rom-official-oos-cam-black-iron-rom-v3-3-android-13-0-lemonade.4594469\/",
 	"maintainers": [{
 		"main_maintainer":false,
 		"github_username":"ralf979",
@@ -21,5 +21,5 @@
 	"donate_url":"http:\/\/www.paypal.me\/ralf979",
 	"website_url":"https:\/\/lol.lol\/",
 	"news_url":"https:\/\/t.me\/BlkiUpdate",
-	"forum_url":"https:\/\/forum.xda-developers.com\/t\/rom-official-oos-cam-black-iron-rom-v3-2-android-13-0-lemonade.4594469\/#post-88829359"
+	"forum_url":"https:\/\/forum.xda-developers.com\/t\/rom-official-oos-cam-black-iron-rom-v3-3-android-13-0-lemonade.4594469\/"
 }
