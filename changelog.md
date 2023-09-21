@@ -1,5 +1,11 @@
 # Blk-Iron_Features
 
+# V3.4 (21/09/2023)
+
+  - Merged September Security Patches 
+  - Small bug fixes
+  - ... and other small improvements
+
 # V3.3 (17/08/2023)
 
   - Merged August Security Patches 
