@@ -1,0 +1,44 @@
+Changelog - 11/01/2024
+
+ - increased zram to 6G
+ - move back to lz4 zram
+ - raphael: overlay: Import carrier config from MIUI
+ - raphael: Disable display refresh rate override
+ - vendor.prop: Set debug.sf.auto_latch_unsignaled to 0.
+ - ARevert "raphael: Enable debug.sf.auto_latch_unsignaled"
+ - system.prop: improve lmkd behavior
+ - raphael: system.prop: remove some lmkd props
+ - Revert "raphael: drop telephony packages now in vendor"
+ - Revert "dropped ro.soc.manufacturer=QTI"
+ - dropped ro.soc.manufacturer=QTI
+ - raphael: drop telephony packages now in vendor
+ - overlay: cleanup Pinner list
+ - rootdir: Make less cores available for background tasks
+ - raphael: Adreno 728
+ - overlay: move udfps enroll radius to settings
+ - rootdir: update foreground clamps
+ - raphael: Commonize libavservices_minijail
+ - raphael: Switch to full IWLAN mode
+
+# NOTES:
+After the first launch Chrome crashes, simply update the playstore apps and it will be fixed
+
+  #Flash instructions
+
+🚦 Before flashing any rom, make a backup of your persist! and your data !!! 🚥
+
+based on  O.S.S. vendor and Soviet kernel (A11 Firmware)
+Recommended Recovery - Orang FOX Unofficial DSP by @pwnrazr ( https://t.me/ergdevchannel/468 )
+Rom for now is decrypted by default
+
+Clean Flash
+- Back up all your data
+- Go To Recovery
+- Flash legacy_to_dynamic_zip
+- Flash Dynamic Recommended Recovery
+- Flash latest firmware required by ROM
+- Flash Rom
+- Format data (Mandatory if coming from non dynamic roms)
+- reboot system
+
+For links and more detailed help, join the support group ( https://t.me/ralf979street )
