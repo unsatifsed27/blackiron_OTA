@@ -1,0 +1,35 @@
+Changelog - 14.0// V4.0 - BETA 07/12/2023
+
+ - January Security Patch
+ - KernelSU support
+ - sm8350-common: Update audio panel side config
+ - sm8350-common: Implement OnePlus Settings support
+ - sm8350-common: set debug.sf.frame_rate_multiple_threshold to 60 by default
+ - sm8350-common: OnePlusSettings: Allow more vibration levels
+
+FLASH INSTRUCTIONS:
+
+🚦 Before flashing any rom, make a backup of your data! 🚥
+
+Pre-requisites :
+ - Brain and ability to READ !
+ - Update your device to OOS 13.1 (EX01)
+ - Gapps included so no need to flash/sideload GApps
+
+Clean Flash:
+
+- Extract recovery package zip (lemonade/p sourgeforce folder)
+- Reboot to bootloader & connect your phone to PC
+- Double click on flash.bat (or .sh if you use Linux)
+- Reboot to recovery & Factory reset > Format data/factory reset
+- Back to recovery home page & tap > Apply update > Apply from ADB
+- Now sideload rom using command adb sideload <rom_filename>.zip
+- Now reboot to system.
+
+Dirty Flash :
+1. Reboot phone to recovery.
+2. ADB sideload BlackIron-4.x_lemonade/p-xxxxxxxxxxx.zip (lemonade for op9 or lemonadep for op9p)
+3. Reboot system. Profit.
+
+Rooting:
+1. Download and Install KernelSU manager
