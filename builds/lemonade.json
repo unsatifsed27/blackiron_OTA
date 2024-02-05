@@ -1,18 +1,18 @@
 {
 	"error":false,
-	"filename":"Blackiron-4.0-BETA2_lemonade-14-20240111-1301-Official.zip",
+	"filename":"Blackiron-4.1_lemonade-14-20240205-0821-Official.zip",
 	"datetime":,
-	"size":1955256493,
-	"url":"https:\/\/sourceforge.net\/projects\/black-iron-project\/files\/lemonade\/Blackiron-4.0-BETA2_lemonade-14-20240111-1301-Official.zip\/download",
-	"filehash":"2fb0b2555543709d1fe123fffa6ee949",
+	"size":2358110993,
+	"url":"https:\/\/sourceforge.net\/projects\/black-iron-project\/files\/lemonade\/Blackiron-4.1_lemonade-14-20240205-0821-Official.zip\/download",
+	"filehash":"41dfe6b7b77077c01cc381f910fa114d",
 	"version":"",
 	"status":"Active",
 	"blkiv":"",
-	"id":"0df6616899dda057641759b53e7d77c6f3bc45d5afe947346c628e3dbda577f2",
+	"id":"93e7f717344c7c4f4ca91df31a79f31a4e26f3ed583a14d55d0a20d505d20255",
 	"tg_username":"ralf979",
 	"device_name":"OnePlus 9",
 	"device":"lemonade",
-	"xda_thread":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-0-beta-android-14-0-lemonade.4594469\/",
+	"xda_thread":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-0-beta-2-android-14-0-lemonade.4594469\/",
 	"maintainers": [{
 		"main_maintainer":false,
 		"github_username":"ralf979",
@@ -21,5 +21,5 @@
 	"donate_url":"http:\/\/www.paypal.me\/ralf979",
 	"website_url":"https:\/\/lol.lol\/",
 	"news_url":"https:\/\/t.me\/BlkiUpdate",
-	"forum_url":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-0-beta-android-14-0-lemonade.4594469\/"
+	"forum_url":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-0-beta-2-android-14-0-lemonade.4594469\/"
 }
