@@ -1,5 +1,27 @@
 # Blk-Iron_Features
 
+# V4.1 - Stable Version (05/02/2024)
+
+  - Pocket Lock
+  - Alert Slider
+  - Allow to choose lockscreen or Ambient on wake gestures
+  - Lock Screen Chargin info
+  - Allow user to select low power refresh rate
+  - CPU info overlay
+  - Allow Configuring Navbar Radius
+  - Allow to hide arrow for back gesture
+  - Allow changing back gesture height
+  - Allow changing the length of gesture navbar
+  - Allow toggling camera/mic privacy indicator
+  - Allow toggling location privacy indicator
+  - Lockscreen battery bar settings
+  - Smart Pixels
+  - Double tap to trigger doze
+  - Implement Volume Styles
+  - Introduce Smart 5G service
+  - Introduce app lock
+  - UDFPS animation
+
 # V4.0 - BETA2 (11/01/2024)
 
   - January Security Patches 
