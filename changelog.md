@@ -2,6 +2,12 @@
 
 # V4.1 - Stable Version (05/02/2024)
 
+(06/02/2024)
+
+  - February Security Patches
+
+(05/02/2024)
+
   - Pocket Lock
   - Alert Slider
   - Allow to choose lockscreen or Ambient on wake gestures
