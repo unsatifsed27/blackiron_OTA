@@ -1,0 +1,25 @@
+Changelog - 07/02/2024
+
+ - Merged Febraury patch
+ - Enabled Smart Pixel
+ - Enabled UDFPS Animation
+
+  #Flash instructions
+
+🚦 Before flashing any rom, make a backup of your persist! and your data !!! 🚥
+
+based on  O.S.S. vendor and Soviet kernel (A11 Firmware)
+Recommended Recovery - Orang FOX Unofficial DSP by @pwnrazr ( https://t.me/ergdevchannel/468 )
+Rom is decrypted by default
+
+Clean Flash
+- Back up all your data
+- Go To Recovery
+- Flash legacy_to_dynamic_zip
+- Flash Dynamic Recommended Recovery
+- Flash latest firmware required by ROM
+- Flash Rom
+- Format data (Mandatory if coming from non dynamic roms)
+- reboot system
+
+For links and more detailed help, join the support group ( https://t.me/ralf979street )
