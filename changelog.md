@@ -1,5 +1,14 @@
 # Blk-Iron_Features
 
+# V4.1 - Stable Version (17/02/2024)
+
+  - Live Volume Steps
+  - Screen off animations
+  - Lockscreen Pulse edge
+  - Nuked Reticker & added Island Notification
+  - Background process killer
+  - Tunnings for status bar paddings
+
 # V4.1 - Stable Version (05/02/2024)
 
 (06/02/2024)
