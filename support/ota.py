@@ -41,6 +41,7 @@ device=input("\nEnter your device full name :- eg Poco M2 Pro : ")
 xda=input("\nEnter Your device's XDA post link : ")
 ghun=input("\nEnter Your Github username : ")
 name=input("\nEnter Your Name : ")
+devgrp=input("\nEnter Your Device Group Username :- eg @BlkiUpdate : ")
 
 print ("These Inputs are For SourceForge Uploading, you will be asked password just after your sourceforge username")
 sf=input("Enter Your SourceForge Username ")
@@ -49,7 +50,7 @@ sf=input("Enter Your SourceForge Username ")
 os.system("scp out/target/product/%s/Blackiron*.zip %s@frs.sourceforge.net://home/frs/project/black-iron-project/%s/"%(codename,sf,codename))
 
 # OTA/TG
-os.system("bash OTA/support/ota.sh '%s' '%s' '%s' '%s' '%s' '%s'"%(codename,tgname,device,xda,ghun,name))
+os.system("bash OTA/support/ota.sh '%s' '%s' '%s' '%s' '%s' '%s' '%s'"%(codename,tgname,device,xda,ghun,name,devgrp))
 
 # Open json for formatting
 init = open("OTA/builds/%s.json"%(codename), "rt")
