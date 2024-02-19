@@ -1,0 +1,49 @@
+{
+	"error":false,
+	"filename":"Blackiron-4.1_stone-14-20240219-0827-Official.zip",
+	"datetime":1708330796,
+	"size":1610735981,
+	"url":"https:\/\/sourceforge.net\/projects\/black-iron-project\/files\/stone\/Blackiron-4.1_stone-14-20240219-0827-Official.zip\/download",
+	"filehash":"aa7adf7ddf849198d78684efe913222f",
+	"version":"14",
+	"status":"Active",
+	"blkiv":"4.1",
+	"id":"90db8d255c68543a63754f763e8684b3c1ef8f34affdb033b930fbf299833b6d",
+	"tg_username":"takixamru",
+	"device_name":"POCO X5 5G \/ REDMI NOTE 12 5G",
+	"device":"stone",
+	"xda_thread":"",
+	"maintainers": [{
+		"main_maintainer":false,
+		"github_username":"AMRITO1",
+		"name":"TAKI"
+	}],
+	"donate_url":"http:\/\/www.paypal.me\/ralf979",
+	"website_url":"https:\/\/lol.lol\/",
+	"news_url":"https:\/\/t.me\/BlkiUpdate",
+	"forum_url":""
+}{
+	"error":false,
+	"filename":"@takisnetwork",
+	"datetime":,
+	"size":,
+	"url":"",
+	"filehash":"",
+	"version":"",
+	"status":"",
+	"blkiv":"",
+	"id":"",
+	"tg_username":"",
+	"device_name":"",
+	"device":"",
+	"xda_thread":"",
+	"maintainers": [{
+		"main_maintainer":false,
+		"github_username":"",
+		"name":""
+	}],
+	"donate_url":"",
+	"website_url":"",
+	"news_url":"",
+	"forum_url":""
+}
