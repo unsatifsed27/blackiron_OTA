@@ -1,0 +1,33 @@
+Changelog - 22/02/2024
+
+ - Switched To Legacy Device Tree
+ - Initial Build with new trees
+ - Bool-X Kernel
+ - KSU Supported
+ - Kprofiles Added
+ - MIUI and Leica Camera 5.0 as Default Camera
+
+A14 LEGACY Flash instructions
+
+🚦 Before flashing any rom, make a backup of your persist! 🚥
+
+based on  O.S.S. vendor and Bool-X kernel (A11 Firmware)
+Recommended Recovery - Orang FOX Official (https://orangefox.download/device/raphael)
+Rom is decrypted by default so no need to flash dfe.
+
+** FROM Dynamic BLKI and Other ROM is mandatory CLEAN FLASH **
+
+Clean Flash
+- Back up all your data
+- Flash Recommended Recovery
+- Wipe Cache - Dalvik - System - Data
+- Flash latest firmware required by ROM
+- Flash Rom
+- reboot system
+
+Dirty Flash
+
+- Back up all your data
+- Wipe Cache - Dalvik
+- Flash Rom
+- reboot system
