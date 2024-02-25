@@ -6,7 +6,7 @@ GHUN=$5
 NAME=$6
 DEVGRP=$7
 
-DATETIME=$(grep "ro.build.date.utc=" out/target/product/$DEVICE/system/build.prop | cut -d "=" -f 2)
+DATETIME=$(grep "ro.blackiron.build.date=" out/target/product/$DEVICE/system/build.prop | cut -d "=" -f 2 )
 FILENAME=$(find out/target/product/$DEVICE/Blackiron*.zip | cut -d "/" -f 5)
 ID=$(sha256sum out/target/product/$DEVICE/Blackiron*.zip | cut -d " " -f 1)
 FILEHASH=$(md5sum out/target/product/$DEVICE/Blackiron*.zip | cut -d " " -f 1)

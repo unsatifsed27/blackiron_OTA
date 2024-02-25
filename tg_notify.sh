@@ -10,7 +10,7 @@ fi
 STATUS="$(jq -r '.status' "${CHANGED_FILE}")"
 DEVICE="$(jq -r '.device' "${CHANGED_FILE}")"
 PHOTO="banner.jpeg"
-BUILD_DATE="$(date +'%d-%b-%Y' -d @$(jq '.datetime' ${CHANGED_FILE}))"
+BUILD_DATE="$(date +'%dth-%b-%Y' -d @$(jq '.datetime' ${CHANGED_FILE}))"
 CHANGELOG="${DEVICE_CHANGELOG_URL}${DEVICE}/$(jq -r '.filename' "${CHANGED_FILE}")"
 SFLINK="$(jq -r '.url' "${CHANGED_FILE}")"
 DEVICE_NAME="$(jq -r '.device_name' "${CHANGED_FILE}")"
