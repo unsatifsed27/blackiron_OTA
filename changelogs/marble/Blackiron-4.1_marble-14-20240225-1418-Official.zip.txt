@@ -32,12 +32,3 @@ Changelog - 14.0// V4.1 25/02/2023
  Install rom
 
  Start system
-
-
-
-Changelog - 14.0// V4.1 06/02/2023
-
- - Initial official build
- - Included dolby atmos
- - Added spatial audio
- - Enabled Smart Pixel
