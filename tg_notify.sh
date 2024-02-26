@@ -10,14 +10,14 @@ fi
 STATUS="$(jq -r '.status' "${CHANGED_FILE}")"
 DEVICE="$(jq -r '.device' "${CHANGED_FILE}")"
 PHOTO="banner.jpeg"
-BUILD_DATE="$(date +'%dth-%b-%Y' -d @$(jq '.datetime' ${CHANGED_FILE}))"
+BUILD_DATE="$(date +'%dth-%b-%Y' -d $(jq '.datetime' ${CHANGED_FILE}))"
 CHANGELOG="${DEVICE_CHANGELOG_URL}${DEVICE}/$(jq -r '.filename' "${CHANGED_FILE}")"
 SFLINK="$(jq -r '.url' "${CHANGED_FILE}")"
 DEVICE_NAME="$(jq -r '.device_name' "${CHANGED_FILE}")"
 BLKIV="$(jq -r '.blkiv' "${CHANGED_FILE}")"
 XDA="$(jq -r '.xda_thread' "${CHANGED_FILE}")"
 USERNAME="$(jq -r '.tg_username' "${CHANGED_FILE}")"
-DEVGRP="$(jq -r '.devgrp' "${CHANGED_FILE}")"
+DEV_GRP="$(jq -r '.dev_grp' "${CHANGED_FILE}")"
 ROM="https://github.com/Black-Iron-Project/OTA/blob/u14/changelog.md"
 if [[ $STATUS = "Active" ]]
 then
@@ -36,7 +36,7 @@ Changelog : <a href='${CHANGELOG}.txt'>Device</a> | <a href='${ROM}'>ROM</a>
 
  Support : @BlackIronProject
  Channel : @BlkiUpdate
- Device Group : ${DEVGRP}
+ Device Group : ${DEV_GRP}
 
 #BLKI #${DEVICE}"
 else
