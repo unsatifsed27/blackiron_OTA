@@ -17,7 +17,7 @@ DEVICE_NAME="$(jq -r '.device_name' "${CHANGED_FILE}")"
 BLKIV="$(jq -r '.blkiv' "${CHANGED_FILE}")"
 XDA="$(jq -r '.xda_thread' "${CHANGED_FILE}")"
 USERNAME="$(jq -r '.tg_username' "${CHANGED_FILE}")"
-DEV_GRP="$(jq -r '.dev_grp' "${CHANGED_FILE}")"
+DEV_GRP="$(jq -r '.device_group' "${CHANGED_FILE}")"
 ROM="https://github.com/Black-Iron-Project/OTA/blob/u14/changelog.md"
 if [[ $STATUS = "Active" ]]
 then
