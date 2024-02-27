@@ -40,5 +40,9 @@ Changelog : <a href='${CHANGELOG}.txt'>Device</a> | <a href='${ROM}'>ROM</a>
 
 #BLKI #${DEVICE}"
 else
-echo "Device is inactive thus no notification pushed"
+echo "Device is inactive so dropped notification sent"
+curl -X POST "https://api.telegram.org/bot${TOKEN}/sendMessage" \
+-d "chat_id=${CHAT_ID}" \
+-d "text=Sad news! %0A%0A${DEVICE_NAME} has been dropped from official support.%0A%0AIf you'd like to apply to maintain, please follow the button below." \
+-d "reply_markup={\"inline_keyboard\":[[{\"text\":\"Apply Here\",\"url\":\"https://test.link\"}]]}"
 fi
