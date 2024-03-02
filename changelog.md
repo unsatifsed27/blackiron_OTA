@@ -1,5 +1,15 @@
 # Blk-Iron_Features
 
+# V4.2 - Stable Version (02/03/2024)
+
+  - Switched to new small GAPPS
+  - Ambient Text Customization
+  - Add lockscreen weather
+  - Lockscreen Clock Style
+  - UDFPS framework dimming support
+  - Allow scheduling always on display
+  - Advanced gestures
+
 # V4.1 - Stable Version (17/02/2024)
 
   - Live Volume Steps
