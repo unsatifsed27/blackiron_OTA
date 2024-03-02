@@ -1,0 +1,40 @@
+Changelog - 14.0// V4.1 17/02/2024
+
+ - Merged February Security Patch
+ - Updated with source as of 17/02/2024
+
+Changelog - 14.0// V4.1 05/02/2024
+
+ - Trees are now based on Delano's trees
+ - Firmware now is included
+ - Dropped Dolby Atoms
+ - Enabled Smart Pixel
+ - Added DeviceSettings
+ - Added Alert Slider
+
+FLASH INSTRUCTIONS:
+
+🚦 Before flashing any rom, make a backup of your data! 🚥
+
+Pre-requisites :
+ - Brain and ability to READ !
+ - Update your device to OOS 13.1 (EX01)
+ - Gapps included so no need to flash/sideload GApps
+
+Clean Flash:
+
+- Extract recovery package zip (lemonade/p sourgeforce folder)
+- Reboot to bootloader & connect your phone to PC
+- Double click on flash.bat (or .sh if you use Linux)
+- Reboot to recovery & Factory reset > Format data/factory reset
+- Back to recovery home page & tap > Apply update > Apply from ADB
+- Now sideload rom using command adb sideload <rom_filename>.zip
+- Now reboot to system.
+
+Dirty Flash :
+1. Reboot phone to recovery.
+2. ADB sideload BlackIron-4.x_lemonade/p-xxxxxxxxxxx.zip (lemonade for op9 or lemonadep for op9p)
+3. Reboot system. Profit.
+
+Rooting:
+1. Download and Install KernelSU manager
