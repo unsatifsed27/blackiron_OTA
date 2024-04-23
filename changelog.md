@@ -1,5 +1,12 @@
 # Blk-Iron_Features
 
+# V4.3 (23/04/2024)
+
+ - Rebased the entire SOURCE again
+ - Switched from AOSP base to LOS base
+ - QPR2 Merged
+ - April 2024 Patch
+
 # V4.2 - Stable Version (02/03/2024)
 
   - Switched to new small GAPPS
