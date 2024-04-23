@@ -1,0 +1,31 @@
+Changelog - 22/04/2024
+
+ - Switched again to Legacy DT
+ - Rebase all trees
+ - Synchronized with the latest source
+
+  #Flash instructions
+
+🚦 Before flashing any rom, make a backup of your persist! and your data !!! 🚥
+
+based on  O.S.S. vendor and Bool-X Kernel (A11 Firmware)
+Recommended Recovery - OrangeFox12.1_0-DSP_A14_FBEv2-F2FS-Raphael.zip
+Rom is Encrypted
+
+First time installation guide (A14):
+For Dynamic System Partition (DSP)
+
+------------------------------
+-Backup your internal storage data
+-Boot to recovery
+-Flash OrangeFox12.1_0-DSP_A14_FBEv2-F2FS-Raphael.zip
+-Format Data (It's must.)
+-Reboot to recovery
+-Connect computer to your phone and copy all above files to phones internal storage. (A11 Firmware, Retrofit, ROM, Gapps.)
+-Flash A11 Firmware
+-Flash legacy_to_retrofit_dynamic_by_@raphael_alpha.zip
+-Flash ROM
+-DON'T REBOOT -- Go to> Manage partition> Data> Change FS> F2FS (It's must. Otherwise your device won't boot)
+------------------------------
+
+For links and more detailed help, join the support group ( https://t.me/ralf979street )
