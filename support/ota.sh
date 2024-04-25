@@ -6,15 +6,15 @@ GHUN=$5
 NAME=$6
 DEVGRP=$7
 
-DATETIME=$(grep "ro.blackiron.build.date=" out/target/product/$DEVICE/system/build.prop | cut -d "=" -f 2 )
+DATETIME=$(grep "ro.blackiron.build.version" out/target/product/$DEVICE/system/build.prop | cut -d "-" -f 4 )
 FILENAME=$(find out/target/product/$DEVICE/Blackiron*.zip | cut -d "/" -f 5)
 ID=$(sha256sum out/target/product/$DEVICE/Blackiron*.zip | cut -d " " -f 1)
 FILEHASH=$(md5sum out/target/product/$DEVICE/Blackiron*.zip | cut -d " " -f 1)
 SIZE=$(wc -c out/target/product/$DEVICE/Blackiron*.zip | awk '{print $1}')
 URL="https://sourceforge.net/projects/black-iron-project/files/$DEVICE/$FILENAME/download"
-VERSION=$(grep "ro.blackiron.build.version=" out/target/product/$DEVICE/system/build.prop | cut -d "=" -f 2)
+VERSION=$(grep "ro.build.version.release=" out/target/product/$DEVICE/system/build.prop | cut -d "=" -f 2)
 STATUS="Active"
-BLKIV=$(grep "ro.blackiron.version=" out/target/product/$DEVICE/system/build.prop | cut -d'=' -f2 | cut -d'_' -f1)
+BLKIV=$(grep "ro.modversion=" out/target/product/$DEVICE/system/build.prop | cut -d '=' -f 2 )
 DONATE_URL="http://www.paypal.me/ralf979"
 WEBSITE_URL="https://lol.lol/"
 NEWS_URL="https://t.me/BlkiUpdate"
