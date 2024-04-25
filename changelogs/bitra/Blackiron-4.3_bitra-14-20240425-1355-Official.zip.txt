@@ -1,0 +1,43 @@
+                   # ---------- Device --------------#
+
+                    - Import Adreno drivers from Oculus Quest 2 
+                    - wifi: disable FW TWT
+                    - Expose dolby launcher in app drawer
+                    - Props: Disable SF composition prediction model
+                    - Enable VoNR Calls support
+                    - Enable smart pixels
+                    - Other miscs changes
+
+                   # ---------- Kernel Zorok --------------#
+
+                    - Merge tag 'v4.19.311'
+                    - scsi: ufs: Disable clock scaling
+                    - sched/completion: Expose wait_for_common*() to drivers  
+                    - Revert "kernel: irq: Increase Sbalance polling interval to 20s"
+                    - sbalance: Fix systemic issues caused by flawed IRQ statistics
+                    - init: Enable SCHED_THERMAL_PRESSURE by default
+                    - sched/fair: Update cpu_capacity to reflect thermal pressure
+                    - Other miscs improvements 
+
+
+                    # ———/ Flashing Guide /———----------#
+
+                    - Prerequisite Unlocked Boot-loader With Custom Recovery 
+                    - Data Format Is required When Mentioned
+
+                    #-------- Flashing Steps ------------#
+
+                    - Flash Latest F16 Firmware of your Region (Mandatory !!!!)
+                    - Flash ROM zip 
+                    - Now Format DATA and Reboot
+                    - Flash Magisk Delta (Optional) (Recommended To Flash After Boot)
+                    - If Play Integrity Fails Use Magisk Module
+
+                    #-------- WARNING AND BUGS -----------#
+
+                    - Report Any Bugs with log if possible
+
+  
+                      # ---------- Credits --------------#
+  
+                     Bl4ckpeter for his tree and kenel base
