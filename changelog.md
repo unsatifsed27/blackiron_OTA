@@ -1,5 +1,15 @@
 # Blk-Iron_Features
 
+# V4.4 (17/05/2024)
+
+ - Re-add Tunnings for status bar paddings
+ - Allow turning on Bluetooth when pressing the tile
+ - Introduce Shake Gestures
+ - Introduce lockscreen widgets
+ - Add Custom FOD Icon
+ - Add fingerprint vibration settings
+ - May 2024 Patch
+
 # V4.3 (23/04/2024)
 
  - Rebased the entire SOURCE again
