@@ -1,5 +1,14 @@
 # Blk-Iron_Features
 
+# V4.4 (12/06/2024)
+
+ - May 2024 Patch (before doing yet another rebase for the new QPR3)
+ - Updated PixelPropsUtils to Pass CTS and Play integrity
+ - Enabled inline signing build
+ - dropped matlog
+ - added support for MIUI & OPLUS Camera
+ - added Blackiron Manteiner 
+
 # V4.4 (17/05/2024)
 
  - Re-add Tunnings for status bar paddings
