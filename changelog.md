@@ -1,6 +1,6 @@
 # Blk-Iron_Features
 
-# V4.4 (12/06/2024)
+# V4.5 (12/06/2024)
 
  - May 2024 Patch (before doing yet another rebase for the new QPR3)
  - Updated PixelPropsUtils to Pass CTS and Play integrity
