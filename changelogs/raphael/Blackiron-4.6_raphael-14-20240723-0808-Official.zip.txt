@@ -1,0 +1,55 @@
+Changelog - 23/07/2024
+
+ - July security patches
+ - Miui Camera Inbuild (Fixed 48MP)
+ - Last Soviet Kernel Update
+ - Build Signed (for working play integrity & CTS)
+ - update gpu blobs from hollywood-user-12-SQ3A.220605.009.A1-51062550053200150-release-keys
+ - Use AOSP default Codec2/OMX ranks
+ - configure led vibrator
+ - Correct dalvik heap
+ - Use the fragment for QTI vibrator HAL
+ - powerhint: remove 480mhz GPU freq
+ - Mark CNE symlink target as required package
+ - Declare IMS libs as symlinks during extraction
+ - Switch to android.hardware.usb@1.3-service.dual_role_usb
+ - Migrate to QTI USB Gadget 1.2 HIDL
+ - Move usage of USB MTP/PTP functionality with USB F_FS driver
+ - Setup DeviceAsWebcam
+ - remove BOARD_USERDATAIMAGE_PARTITION_SIZE
+ - Unset BUILD_BROKEN_INCORRECT_PARTITION_IMAGES
+ - build libpiex_shim
+ - Build more libraries for QPR3
+ - "drop ipacm + tetheroffload"
+ - explicitly build some vndk vendor libraries
+ - use media_codecs from caf hw media
+ - sepolicy: Drop duplicate sysfs_kgsl type
+
+  #Flash instructions
+
+🚦 Before flashing any rom, make a backup of your persist! and your data !!! 🚥
+
+Rom uses Dynamic partitions ships with gapps
+Based on OSS vendor , Barnys tree & Soviet Kernel.
+Recommended Recovery - https://t.me/redmik20proupdates/7180
+Flash A11 Firmware of your region
+
+Rom is Encrypted
+
+First time installation guide (A14):
+For Dynamic System Partition (DSP)
+
+------------------------------
+-Backup your internal storage data
+-Boot to recovery
+-Flash OrangeFox ( https://t.me/redmik20proupdates/7180 )
+-Format Data (It's must.) - YES
+-Reboot to recovery
+-Connect computer to your phone and copy all above files to phones internal storage. (A11 Firmware, Retrofit, ROM, Gapps.)
+-Flash A11 Firmware
+-Flash legacy_to_retrofit_dynamic_by_@raphael_alpha.zip
+-Flash ROM
+-DON'T REBOOT -- Go to> Manage partition> Data> Change FS> F2FS
+------------------------------
+If you face issues with accessing storage in recovery, go to mount and disable and re-enable data partition
+For links and more detailed help, join the support group ( https://t.me/ralf979street )
