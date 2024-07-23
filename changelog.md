@@ -1,5 +1,11 @@
 # Blk-Iron_Features
 
+# V4.6 (23/07/2024)
+
+ - Rebase Source for QPR3
+ - July 2024 Patch
+ - added Lockscreen Clock & improve LS Widget Styles
+
 # V4.5 (12/06/2024)
 
  - May 2024 Patch (before doing yet another rebase for the new QPR3)
