@@ -1,5 +1,10 @@
 # Blk-Iron_Features
 
+# V4.7 (17/08/2024)
+
+ - August 2024 Patch
+ - Buone Vacanze !
+
 # V4.6 (23/07/2024)
 
  - Rebase Source for QPR3
