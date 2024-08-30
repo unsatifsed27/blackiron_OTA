@@ -1,0 +1,5 @@
+Changelog - 14//
+
+- Initial A14 Official Build With August Patch
+- Dolby in built
+- KSU Pre-pacthed
