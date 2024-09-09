@@ -1,0 +1,11 @@
+Changelog - 09/09/2024
+
+ - September security patches
+ - Update SOVIET Kernel to R6.5
+ - Added support to Charging Control
+ - remove android.hardware.light@2.0 entery
+ - overlay: Disable alpha compositing in WM
+ - Import cleaned up coral powerstats
+ - Optimize polling interval
+ - Go back to non-eSE NFC support
+ - switch to nabu V13.0.3.0.RKXCNXM adreno blobs
