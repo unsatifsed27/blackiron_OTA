@@ -1,5 +1,13 @@
 # Blk-Iron_Features
 
+# V4.8 (09/09/2024)
+
+ - September 2024 Patch
+ - Added Depth Wallpaper feature
+ - Fixed Volume Panel lags
+ - Added bootanimation styles
+ - Added Smart 5G service
+
 # V4.7 (17/08/2024)
 
  - August 2024 Patch
