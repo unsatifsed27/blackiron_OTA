@@ -1,0 +1,6 @@
+Changelog - 14//
+
+- September Security Patch
+- OTG Compatibility Added
+- PowerShare Added
+- Nothing Charging Control Added
