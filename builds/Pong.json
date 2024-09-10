@@ -1,19 +1,19 @@
 {
 	"error":false,
-	"filename":"Blackiron-4.7_Pong-14-20240830-0811-Official.zip",
-	"datetime":20240830,
-	"size":2198877980,
-	"url":"https:\/\/sourceforge.net\/projects\/black-iron-project\/files\/Pong\/Blackiron-4.7_Pong-14-20240830-0811-Official.zip\/download",
-	"filehash":"abf6f84860dcd68d19def286c1563998",
+	"filename":"Blackiron-4.8_Pong-14-20240910-0539-Official.zip",
+	"datetime":20240910,
+	"size":2228627807,
+	"url":"https:\/\/sourceforge.net\/projects\/black-iron-project\/files\/Pong\/Blackiron-4.8_Pong-14-20240910-0539-Official.zip\/download",
+	"filehash":"bcfc1c43517b7cb5bac221083ae2dd82",
 	"version":"14",
 	"status":"Active",
-	"blkiv":"4.7",
-	"id":"7c26c9f4c5d49d79732d196f777ffdca32fe02d8b4fe5b6390521d73ae4b2e2f",
+	"blkiv":"4.8",
+	"id":"44f2c0918f80e7ceb18676a693e398ea7aae0adb2af14573112e36f0176de889",
 	"tg_username":"AgBKartikey",
 	"device_name":"Nothing Phone 2",
 	"device":"Pong",
 	"device_group":"@NothingPhone2",
-	"xda_thread":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-7-android-14-0-pong.4689486\/",
+	"xda_thread":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-7-android-14-0-pong.4689486\/#post-89686843",
 	"maintainers": [{
 		"main_maintainer":false,
 		"github_username":"AgBKartikey",
@@ -22,5 +22,5 @@
 	"donate_url":"http:\/\/www.paypal.me\/ralf979",
 	"website_url":"https:\/\/lol.lol\/",
 	"news_url":"https:\/\/t.me\/BlkiUpdate",
-	"forum_url":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-7-android-14-0-pong.4689486\/"
+	"forum_url":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-7-android-14-0-pong.4689486\/#post-89686843"
 }
