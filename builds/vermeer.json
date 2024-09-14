@@ -1,0 +1,26 @@
+{
+	"error":false,
+	"filename":"Blackiron-4.8_vermeer-14-20240913-2259-Official.zip",
+	"datetime":20240913,
+	"size":4174868315,
+	"url":"https:\/\/sourceforge.net\/projects\/black-iron-project\/files\/vermeer\/Blackiron-4.8_vermeer-14-20240913-2259-Official.zip\/download",
+	"filehash":"fe6a2d579f36b9c989e7add437b8af4b",
+	"version":"14",
+	"status":"Active",
+	"blkiv":"4.8",
+	"id":"da673256c07ca578bb5759b2ac7e4dd8105708db5808dae031cae86dfe9ef283",
+	"tg_username":"ralf979",
+	"device_name":"Poco F6 Pro",
+	"device":"vermeer",
+	"device_group":"https:\/\/t.me\/BlackIronProject",
+	"xda_thread":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-8-android-14-0-poco-f6-pro-redmi-k70-vermeer.4692602\/",
+	"maintainers": [{
+		"main_maintainer":false,
+		"github_username":"ralf979",
+		"name":"ralf979"
+	}],
+	"donate_url":"http:\/\/www.paypal.me\/ralf979",
+	"website_url":"https:\/\/lol.lol\/",
+	"news_url":"https:\/\/t.me\/BlkiUpdate",
+	"forum_url":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-8-android-14-0-poco-f6-pro-redmi-k70-vermeer.4692602\/"
+}

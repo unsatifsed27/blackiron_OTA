@@ -1,0 +1,24 @@
+Changelog - 13/09/2024
+
+ - Initial Build
+ 
+ 
+ FLASH INSTRUCTIONS:
+
+- Follow the steps below or this guide for Flash --> Guide
+
+🚦 Before flashing any rom, make a backup of your data! 🚥
+
+Pre-requisites :
+- Brain and ability to READ !
+- Gapps included so no need to flash/sideload GApps
+
+Clean Flash:
+
+- adb reboot bootloader
+- fastboot -w
+- fastboot update "romfile.zip"
+- After a while device WILL reboot itself into fastbootd!!
+- Once process Is done type fastboot reboot
+
+enjoy!!
