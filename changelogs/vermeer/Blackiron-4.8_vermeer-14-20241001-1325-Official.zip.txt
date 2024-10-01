@@ -1,4 +1,4 @@
-Changelog - 13/09/2024
+Changelog - 01/10/2024
 
  - NFC Fixed
  - Battery Backup improvement
