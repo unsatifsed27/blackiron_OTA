@@ -1,5 +1,13 @@
 # Blk-Iron_Features
 
+# V4.9 (10/13/2024)
+
+ - October 2024 Patch
+ - Allow showing Ambient instead of fully waking
+ - Extend showing Ambient instead of fully waking to single tap gesture
+ - Double tap to trigger doze
+ - Allow setting wake for notifications separately from doze
+
 # V4.8 (09/09/2024)
 
  - September 2024 Patch
