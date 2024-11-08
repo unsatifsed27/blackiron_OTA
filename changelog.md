@@ -1,5 +1,10 @@
 # Blk-Iron_Features
 
+# V5.0 BETA (11/08/2024)
+
+ - October 2024 Patch
+ - Initial BETA Release
+
 # V4.9 (10/13/2024)
 
  - October 2024 Patch
