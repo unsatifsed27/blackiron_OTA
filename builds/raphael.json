@@ -1,19 +1,19 @@
 {
 	"error":false,
-	"filename":"Blackiron-4.9_raphael-14-20241014-1339-Official.zip",
-	"datetime":20241014,
-	"size":2258353049,
-	"url":"https:\/\/sourceforge.net\/projects\/black-iron-project\/files\/raphael\/Blackiron-4.9_raphael-14-20241014-1339-Official.zip\/download",
-	"filehash":"24b5964131ea6e5dc9f7df7b0e9c4a92",
-	"version":"14",
+	"filename":"Blackiron-5.0-BETA_raphael-15-20241108-0820-CORE-OFFICIAL.zip",
+	"datetime":,
+	"size":2566421814,
+	"url":"https:\/\/sourceforge.net\/projects\/black-iron-project\/files\/raphael\/Blackiron-5.0-BETA_raphael-15-20241108-0820-CORE-OFFICIAL.zip\/download",
+	"filehash":"ec8ac37ac96adfa1b014c65db40f0058",
+	"version":"15",
 	"status":"Active",
-	"blkiv":"4.9",
-	"id":"5ac20515a0592285f8bdc8c22a7a2a7a2d2286e6bb2a0cc902e0796c6fa577c0",
+	"blkiv":"Blackiron-5.0-BETA_raphael-15-20241108-0820-CORE-OFFICIAL",
+	"id":"112f3623bd03905731bf545eb7d75482ab5350b29f346cbcf4440fb5f4ab1c51",
 	"tg_username":"ralf979",
 	"device_name":"Xiaomi Mi 9T Pro",
 	"device":"raphael",
-	"device_group":"https:\/\/t.me\/ralf979street",
-	"xda_thread":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-5-android-14-0-raphael.4598183\/",
+	"device_group":"t.me\/ralf979street",
+	"xda_thread":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-9-android-14-0-raphael.4598183\/",
 	"maintainers": [{
 		"main_maintainer":false,
 		"github_username":"ralf979",
@@ -22,5 +22,5 @@
 	"donate_url":"http:\/\/www.paypal.me\/ralf979",
 	"website_url":"https:\/\/lol.lol\/",
 	"news_url":"https:\/\/t.me\/BlkiUpdate",
-	"forum_url":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-5-android-14-0-raphael.4598183\/"
+	"forum_url":"https:\/\/xdaforums.com\/t\/rom-official-black-iron-rom-v4-9-android-14-0-raphael.4598183\/"
 }
