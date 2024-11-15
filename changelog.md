@@ -1,6 +1,15 @@
 # Blk-Iron_Features
 
-# V5.0 BETA (11/08/2024)
+# V5.0 STABLE (15/11/2024)
+
+ - November 2024 Patch
+ - Initial STABLE Release
+ - New Bootanimation
+ - New Firmware/SetupWizard Logo
+ - New Default Wallpaper
+ - Update GSM Package (for Gapps Inbuild) & added CORE Package
+
+# V5.0 BETA (08/11/2024)
 
  - October 2024 Patch
  - Initial BETA Release
