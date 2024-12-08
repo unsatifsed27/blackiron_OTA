@@ -1,5 +1,21 @@
 # Blk-Iron_Features
 
+# V5.1 (07/12	/2024)
+
+ - fixed search bar in settings
+ - added deep sleep controller
+ - add per-connection Wi-Fi MAC address randomization option
+ - added toggle for smart 5g
+ - added clipboard auto clear setting
+ - added pick to raise with Ambient instead of fully waking
+ - added bootanimation styles
+ - added varius spoof 
+ - added three fingers swipe actions
+ - added toggle for smartspace
+ - added customization for double tap recents key
+ - added sidebar settings
+ - addedo Udfps Icon Picker
+
 # V5.0 STABLE (15/11/2024)
 
  - November 2024 Patch
