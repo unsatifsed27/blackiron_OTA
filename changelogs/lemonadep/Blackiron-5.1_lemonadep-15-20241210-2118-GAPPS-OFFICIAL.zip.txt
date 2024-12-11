@@ -1,0 +1,26 @@
+Changelog - 15.0// V5.1 11/12/2024
+
+ - initial A15 Build
+ 
+ 
+ FLASH INSTRUCTIONS:
+
+🚦 Before flashing any rom, make a backup of your data! 🚥
+
+Pre-requisites :
+ - Brain and ability to READ !
+ - Update your device to OOS 14 - 14.0.0.720(EX01)
+
+Clean Flash:
+
+- Extract recovery package zip —> OP9Pro Download (https://sourceforge.net/projects/black-iron-project/files/lemonadep/Flash-utility/Blackiron-5_LemonadeP_Recovery.zip/download)
+- Reboot to bootloader & connect your phone to PC
+- Double click on flash.bat (or .sh if you use Linux)
+- Reboot to recovery fastboot reboot recovery
+- Factory reset —> Format data/factory reset
+- Back to recovery home page & tap > Apply update > Apply from ADB
+- Now sideload rom using command adb -d sideload <rom_filename>.zip
+- Now reboot to system.
+
+Rooting:
+1. Download and Install KernelSU manager
